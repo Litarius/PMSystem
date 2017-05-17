@@ -1,0 +1,16 @@
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\PMSystem.Entities.dll.config
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\PMSystem.Entities.dll
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\PMSystem.Entities.pdb
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\Antlr3.Runtime.dll
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\EntityFramework.dll
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\Antlr3.Runtime.pdb
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\EntityFramework.xml
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\PMSystem\PMSystem.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\PMSystem\PMSystem.Entities\obj\Debug\PMSystem.Entities.csprojResolveAssemblyReference.cache
+D:\Projects\PMSystem\PMSystem.Entities\obj\Debug\PMSystem.Entities.dll
+D:\Projects\PMSystem\PMSystem.Entities\obj\Debug\PMSystem.Entities.pdb
