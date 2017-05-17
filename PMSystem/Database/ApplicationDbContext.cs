@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -19,5 +20,11 @@ namespace PMSystem.Database
         {
             return new ApplicationDbContext();
         }
+
+        public IDbSet<ApplicationLog> ApplicationLogs { get; set; } 
+
+       // public IDbSet<DefaultValue> DefaultValues { get; set; }
+        
+         
     }
 }

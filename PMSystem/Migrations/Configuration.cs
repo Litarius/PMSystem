@@ -1,3 +1,8 @@
+using Microsoft.AspNet.Identity.EntityFramework;
+using PMSystem.Database;
+using PMSystem.Entities;
+using PMSystem.Managers;
+
 namespace PMSystem.Migrations
 {
     using System;
@@ -15,6 +20,8 @@ namespace PMSystem.Migrations
 
         protected override void Seed(PMSystem.Database.ApplicationDbContext context)
         {
+            var manager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
+            
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 

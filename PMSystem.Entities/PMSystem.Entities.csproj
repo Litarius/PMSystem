@@ -61,9 +61,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationLog.cs" />
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="CustomField.cs" />
+    <Compile Include="CustomFieldSelection.cs" />
+    <Compile Include="DefaultValue.cs" />
+    <Compile Include="DistinctIssueComparer.cs" />
+    <Compile Include="HostSetting.cs" />
     <Compile Include="Issue.cs" />
+    <Compile Include="IssueAttachment.cs" />
+    <Compile Include="IssueComment.cs" />
+    <Compile Include="IssueCount.cs" />
+    <Compile Include="IssueCustomField.cs" />
+    <Compile Include="IssueHistory.cs" />
+    <Compile Include="IssueNotification.cs" />
+    <Compile Include="IssueRevision.cs" />
+    <Compile Include="IssueType.cs" />
+    <Compile Include="IssueVote.cs" />
+    <Compile Include="IssueWorkReport.cs" />
+    <Compile Include="ITUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
