@@ -20,8 +20,9 @@ namespace PMSystem.Migrations
 
         protected override void Seed(PMSystem.Database.ApplicationDbContext context)
         {
-            var manager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
-            
+            var userManager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
+
+ 
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 

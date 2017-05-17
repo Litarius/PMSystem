@@ -21,6 +21,7 @@ namespace PMSystem
 
             bundles.Add(new ScriptBundle("~/bundles/material").Include(
                       "~/Scripts/materialize.js",
+                      "~/Scripts/Main.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
