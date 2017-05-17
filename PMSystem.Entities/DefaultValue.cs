@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,9 @@ namespace PMSystem.Entities
 {
     public class DefaultValue
     {
+        [Key]
+        public int ProjectId { get; set; }
+
         public bool StatusVisibility { get; set; }
 
         public bool OwnedByVisibility { get; set; }
@@ -81,8 +85,6 @@ namespace PMSystem.Entities
         public int ResolutionId { get; set; }
 
         public int PriorityId { get; set; }
-
-        public int ProjectId { get; set; }
 
         public int StatusId { get; set; }
 

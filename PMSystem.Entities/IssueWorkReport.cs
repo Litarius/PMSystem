@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PMSystem.Entities
 {
-    public class IssueWorkReport
+    public class IssueWorkReport:BaseEntity
     {
         public IssueWorkReport()
         {
@@ -15,8 +15,6 @@ namespace PMSystem.Entities
             WorkDate = DateTime.Now;
             CreatorDisplayName = string.Empty;
         }
-
-        public int Id { get; set; }
 
         public int IssueId { get; set; }
 

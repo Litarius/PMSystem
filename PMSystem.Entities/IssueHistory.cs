@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PMSystem.Entities
 {
-    public class IssueHistory
+    public class IssueHistory : BaseEntity
     {
         public IssueHistory()
         {
@@ -17,8 +17,6 @@ namespace PMSystem.Entities
             OldValue = string.Empty;
             TriggerLastUpdateChange = false;
         }
-
-        public int Id { get; set; }
 
         public int IssueId { get; set; }
 

@@ -82,7 +82,30 @@
     <Compile Include="IssueVote.cs" />
     <Compile Include="IssueWorkReport.cs" />
     <Compile Include="ITUser.cs" />
+    <Compile Include="JsTreeNode.cs" />
+    <Compile Include="MailboxEntry.cs" />
+    <Compile Include="MemberRoles.cs" />
+    <Compile Include="Milestone.cs" />
+    <Compile Include="NotificationUser.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="Priority.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="ProjectImage.cs" />
+    <Compile Include="ProjectMailbox.cs" />
+    <Compile Include="ProjectNotification.cs" />
+    <Compile Include="ProjectStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query.cs" />
+    <Compile Include="QueryClause.cs" />
+    <Compile Include="RelatedIssue.cs" />
+    <Compile Include="RequiredField.cs" />
+    <Compile Include="Resolution.cs" />
+    <Compile Include="RoadMapIssue.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="RolePermission.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="UserCustomField.cs" />
+    <Compile Include="UserCustomFieldSelection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

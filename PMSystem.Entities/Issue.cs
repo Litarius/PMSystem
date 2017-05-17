@@ -7,10 +7,8 @@ using System.Xml.Serialization;
 
 namespace PMSystem.Entities
 {
-    public class Issue
+    public class Issue : BaseEntity
     {
-        #region Constructors
-
         public Issue()
         {
             AssignedUser = new ITUser(new Guid(), string.Empty, string.Empty);
@@ -21,10 +19,6 @@ namespace PMSystem.Entities
             Description = string.Empty;
             IssueCustomFields = new List<IssueCustomField>();
         }
-
-        #endregion
-
-        #region Properties
 
         public List<IssueCustomField> IssueCustomFields { get; set; }
 
@@ -71,8 +65,6 @@ namespace PMSystem.Entities
         public Guid AssignedUserId { get; set; }
 
         public DateTime DateCreated { get; set; }
-
-        public int Id { get; set; }
 
         [XmlIgnore]
         public string FullId
@@ -135,8 +127,6 @@ namespace PMSystem.Entities
         public string Title { get; set; }
 
         public string Description { get; set; }
-
-        #endregion
 
 
         private string EstimationToString(decimal estimation)

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace PMSystem.Entities
 {
-    public class IssueAttachment
+    public class IssueAttachment : BaseEntity
     {
-        #region Constructors
-
         public IssueAttachment()
         {
             CreatorUserName = string.Empty;
@@ -19,12 +17,6 @@ namespace PMSystem.Entities
             DateCreated = DateTime.Now;
             Description = string.Empty;
         }
-
-        #endregion
-
-        #region Properties
-
-        public int Id { get; set; }
 
         public int IssueId { get; set; }
 
@@ -46,7 +38,6 @@ namespace PMSystem.Entities
 
         public string ProjectFolderPath { get; set; }
 
-        #endregion
     }
 
 }

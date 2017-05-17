@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace PMSystem.Entities
 {
-    public class IssueVote
+    public class IssueVote : BaseEntity
     {
         public IssueVote()
         {
             VoteUsername = string.Empty;
         }
-
-        public int Id { get; set; }
 
         public int IssueId { get; set; }
 

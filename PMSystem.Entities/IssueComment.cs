@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace PMSystem.Entities
 {
-    public class IssueComment
+    public class IssueComment : BaseEntity
     {
-        #region Constructors
-
         public IssueComment()
         {
             CreatorUser = new ITUser(new Guid(), string.Empty, string.Empty);
@@ -18,10 +16,6 @@ namespace PMSystem.Entities
             CreatorDisplayName = string.Empty;
             DateCreated = DateTime.Now;
         }
-
-        #endregion
-
-        #region Properties
 
         public Guid CreatorUserId { get; set; }
 
@@ -39,12 +33,9 @@ namespace PMSystem.Entities
 
         public DateTime DateCreated { get; set; }
 
-        public int Id { get; set; }
-
         public int IssueId { get; set; }
 
         public ITUser CreatorUser { get; set; }
 
-        #endregion
     }
 }

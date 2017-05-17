@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PMSystem.Entities
 {
-    public class IssueNotification
+    public class IssueNotification: BaseEntity
     {
         public IssueNotification()
         {
@@ -16,8 +16,6 @@ namespace PMSystem.Entities
         }
 
         public string NotificationDisplayName { get; set; }
-
-        public int Id { get; set; }
 
         public int IssueId { get; set; }
 
