@@ -1,4 +1,5 @@
-﻿@using PMSystem.Models
+﻿@using System.Runtime.Versioning
+@using PMSystem.Models
 @model LoginViewModel
 @{
     ViewBag.Title = "Log in";
@@ -17,16 +18,16 @@
 
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                 <div class="input-field">
-                    @Html.TextBoxFor(m => m.Email, new { @class = "validate", placeholder = "Email" })
+                    @Html.TextBoxFor(m => m.Email, new { @class = "validate", placeholder = "Имя пользователя" })
                     @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
                 </div>
                 <div class="input-field">
-                    @Html.PasswordFor(m => m.Password, new { @class = "validate", placeholder = "Password" })
+                    @Html.PasswordFor(m => m.Password, new { @class = "validate", placeholder = "Пароль" })
                     @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
                 </div>
                 <p>
                     <input type="checkbox" id="RememberMe" />
-                    <label for="RememberMe">Remember me</label>
+                    <label for="RememberMe">Запомнить меня</label>
                 </p>
                 <input type="submit" value="Log in" class="btn waves-effect waves-light" />
 
