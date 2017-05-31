@@ -13,20 +13,19 @@
 
     <nav>
         <div class="nav-wrapper teal">
-            <a href="#" class="brand-logo">PMSystem</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
-                <li><a class="dropdown-button" data-activates="dropdown1">Admin<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="sass.html">Домой</a></li>
+                <li><a href="badges.html">Мои задачи</a></li>
+                <li><a href="collapsible.html" class="dropdown-button" data-activates="dropdown1">Администрирование <i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button"><i class="material-icons left">person_pin</i>Admin<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
                 <li><a href="collapsible.html">JavaScript</a></li>
-                <li><a class="dropdown-button" data-activates="mobile_dropdown">Admin<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" data-activates="mobile_dropdown"><i class="material-icons left">person_pin</i>Admin<i class="material-icons right">arrow_drop_down</i></a></li>
                
             </ul>
             <ul id="dropdown1" class="dropdown-content">
@@ -47,10 +46,6 @@
 
     <div class="body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Project Management System</p>
-        </footer>
     </div>
 
 
