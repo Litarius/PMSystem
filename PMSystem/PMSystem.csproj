@@ -185,6 +185,10 @@
     <Compile Include="Migrations\201705172220058_Added_new_tables.Designer.cs">
       <DependentUpon>201705172220058_Added_new_tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705312143320_added_bindings.cs" />
+    <Compile Include="Migrations\201705312143320_added_bindings.Designer.cs">
+      <DependentUpon>201705312143320_added_bindings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -286,6 +290,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705172220058_Added_new_tables.resx">
       <DependentUpon>201705172220058_Added_new_tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705312143320_added_bindings.resx">
+      <DependentUpon>201705312143320_added_bindings.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

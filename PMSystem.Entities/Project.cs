@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace PMSystem.Entities
@@ -46,6 +47,22 @@ namespace PMSystem.Entities
         public bool AllowAttachments { get; set; }
 
         public string SvnRepositoryUrl { get; set; }
+
+        public virtual ICollection<IssueType> IssueTypes { get; set; }
+
+        public virtual ICollection<Category> Categories { get; set; }
+
+        public virtual ICollection<CustomField> CustomFields { get; set; }
+
+        public virtual ICollection<DefaultValue> DefaultValues { get; set; }
+
+        public virtual ICollection<Issue> Issues { get; set; }
+
+        public virtual ICollection<Milestone> Milestones { get; set; }
+
+        public virtual ICollection<Priority> Priorities { get; set; }
+
+        public virtual ProjectImage ProjectImage { get; set; }
 
         public override string ToString()
         {
