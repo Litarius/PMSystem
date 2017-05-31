@@ -1,0 +1,45 @@
+﻿@model PMSystem.ViewModels.Admin.ProjectsViewModel
+@{
+    ViewBag.Title = "Projects";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <h4>Projects</h4>
+    <hr/>
+    
+    <div class="toolbar">
+        <a href="@Url.Action("Users")" class="btn">@Resources.Localizaion.Create_Project</a>
+    </div>
+    <div>
+        
+        <table class="responsive-table">
+            <thead>
+            <tr>
+                <td>@Resources.Localizaion.Project</td>
+                <td>@Resources.Localizaion.Description</td>
+                <td>@Resources.Localizaion.ProjectManager</td>
+                <td>@Resources.Localizaion.Created</td>
+                <td>@Resources.Localizaion.CreatedBy</td>
+                <td>@Resources.Localizaion.Disabled</td>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model.Projects)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.ManagerDisplayName</td>
+                    <td>@item.DateCreated</td>
+                    <td>@item.CreatorUserName</td>
+                    <td>@item.Disabled</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

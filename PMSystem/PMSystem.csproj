@@ -162,6 +162,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\Localizaion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localizaion.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -196,6 +201,8 @@
     <Compile Include="Services\EmailService.cs" />
     <Compile Include="Services\SmsService.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\Admin\CreateProjectViewModel.cs" />
+    <Compile Include="ViewModels\Admin\ProjectsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\materialize.css" />
@@ -266,6 +273,8 @@
     <Content Include="Views\Shared\_SimpleLayout.cshtml" />
     <Content Include="Views\Admin\Users.cshtml" />
     <Content Include="Views\Projects\Index.cshtml" />
+    <Content Include="Views\Admin\Projects.cshtml" />
+    <Content Include="Views\Admin\CreateProject.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -285,6 +294,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="App_GlobalResources\Localizaion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Localizaion.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705162142571_InitialCreate.resx">
       <DependentUpon>201705162142571_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>

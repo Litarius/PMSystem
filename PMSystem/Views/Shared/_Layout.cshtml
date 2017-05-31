@@ -16,9 +16,9 @@
            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Домой</a></li>
-                <li><a href="badges.html">Мои задачи</a></li>
-                <li><a href="collapsible.html" class="dropdown-button" data-activates="dropdown1">Администрирование <i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="sass.html">@Resources.Localizaion.Home</a></li>
+                <li><a href="badges.html">@Resources.Localizaion.My_Issues</a></li>
+                <li><a href="#" class="dropdown-button" data-activates="dropdown1">@Resources.Localizaion.Admin<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a class="dropdown-button"><i class="material-icons left">person_pin</i>Admin<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
@@ -29,13 +29,15 @@
                
             </ul>
             <ul id="dropdown1" class="dropdown-content">
-                <li>@Html.ActionLink("Users","Users","Admin")</li>
+                <li>@Html.ActionLink(Resources.Localizaion.Projects,"Projects","Admin")</li>
+                <li>@Html.ActionLink(Resources.Localizaion.Users_Account,"Users","Admin")</li>
                 <li><a href="#">two</a></li>
                 <li class="divider"></li>
                 <li><a href="#">three</a></li>
             </ul>
             <ul id="mobile_dropdown" class="dropdown-content">
-                <li>@Html.ActionLink("Users", "Users", "Admin")</li>
+                <li>@Html.ActionLink(Resources.Localizaion.Projects, "Projects", "Admin")</li>
+                <li>@Html.ActionLink(Resources.Localizaion.Users_Account, "Users", "Admin")</li>
                 <li><a href="#">two</a></li>
                 <li class="divider"></li>
                 <li><a href="#">three</a></li>
