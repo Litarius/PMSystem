@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="21dc6455-bcbd-40bd-81bc-45d91d5644d5" name="UMLComponentDiagram1" linkedPackageId="f41b9ffd-1706-48a4-b18e-de125eb87ba5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="92c65aa4-d3e6-4f10-9ab1-f5153b7260f1">
+      <profileInstance Id="ef45b770-23da-4122-be94-ca1001c86004" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="83a3f9c1-453d-49e1-ba37-445ecfad1523">
+      <profileInstance Id="2cb89d66-b69e-4681-a97e-ce6b1c16ab5c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="cf5d1ce6-89b3-4727-8597-1e5fc9f75452" name="PMSystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="737b7a0e-db48-4168-82d5-3fad67aad414" />
+        <ownedAttributesInternal>
+          <part Id="8bd0a5d3-83fe-4226-bab3-becb7d0a45c9" name="Контроллеры" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="b8daf8ff-6bfe-477e-881a-bec167c5ca07" />
+            <type_NamedElement>
+              <componentMoniker Id="2fe0a75d-cae7-45b0-abd9-974ded1038c5" LastKnownName="Component2" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="2fe0a75d-cae7-45b0-abd9-974ded1038c5" name="Component2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4cb0a8bc-8b22-4fa1-8490-e37b7244f29f" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="4cc304ae-3d3d-44a5-bfb1-4eff09407d3e" name="Модуль работы с БД" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3a076f3c-6402-427d-be46-546057b7a53e" />
+        <suppliersInternal>
+          <dependency Id="ddac65d7-ffd7-4a78-a4a5-6fa340fe6cb5">
+            <componentMoniker Id="cf5d1ce6-89b3-4727-8597-1e5fc9f75452" LastKnownName="PMSystem" />
+            <elementDefinition Id="7068c135-ee91-4fbc-b18d-5d0025f61f89" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b9128f9c-786f-4b1a-a178-df7ee9a453ae" name="Стили" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="42947c12-8e25-487d-9a31-c69d05aba050" />
+        <suppliersInternal>
+          <dependency Id="558c5212-9cfc-4961-9573-1d7c91092894">
+            <componentMoniker Id="cf5d1ce6-89b3-4727-8597-1e5fc9f75452" LastKnownName="PMSystem" />
+            <elementDefinition Id="f756947d-c931-4bf5-9e12-a35db9517169" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="a7ff9877-c40c-432e-b1e0-5f6c5bd129f1" name="Скрипты" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f8add0a4-0182-4c13-81a5-68330e72621e" />
+        <suppliersInternal>
+          <dependency Id="f46066c6-369e-4a2a-a6c1-713366b166f4">
+            <componentMoniker Id="cf5d1ce6-89b3-4727-8597-1e5fc9f75452" LastKnownName="PMSystem" />
+            <elementDefinition Id="d53f5177-a396-4249-9dbd-50a70cba5fe8" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="538cc195-2243-4211-b107-f14a353dae0c" name="Html Страницы" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="859f3462-dbdf-432b-94c5-7efe8c2e25ff" />
+        <suppliersInternal>
+          <dependency Id="b48ba5a0-61c9-456d-b43a-30ca374d8f65">
+            <componentMoniker Id="cf5d1ce6-89b3-4727-8597-1e5fc9f75452" LastKnownName="PMSystem" />
+            <elementDefinition Id="34274623-8478-49b7-8429-f892d3a1c1bb" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="5d9ce2dd-70b6-4bbd-bed1-6c48bbfa31f9" name="Модуль для работы с бизнес логикой" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7389e353-a573-4d95-a126-6052206ab6b4" />
+        <suppliersInternal>
+          <dependency Id="7427547d-c387-4b85-8730-347a30e6daba">
+            <componentMoniker Id="cf5d1ce6-89b3-4727-8597-1e5fc9f75452" LastKnownName="PMSystem" />
+            <elementDefinition Id="93b658dc-0443-4219-8e9d-0ff8245e465b" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="f41b9ffd-1706-48a4-b18e-de125eb87ba5" name="PMSystem.Modeling">
+    <elementDefinition Id="b1059d0e-3381-4558-9424-331465a8d002" />
+  </package>
+</componentModel>

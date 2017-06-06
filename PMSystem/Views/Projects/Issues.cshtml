@@ -1,0 +1,55 @@
+﻿@model PMSystem.ViewModels.Projects.IssuesViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <h4>Задачи</h4>
+    <hr />
+
+    <div class="toolbar">
+        <a href="@Url.Action("Users")" class="btn">Создать новую задачу</a>
+    </div>
+    <div>
+
+        <table class="responsive-table">
+            <thead>
+                <tr>
+                    <td>Навзание</td>
+                    <td>Проект</td>
+                    <td>Создатель</td>
+                    <td>Исполнитель</td>
+                    <td>Статус</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Issues)
+            {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.ProjectName</td>
+                        <td>@item.CreatorDisplayName</td>
+                        <td>@item.AssignedDisplayName</td>
+                        <td>@item.StatusName</td>
+                        <td>
+                            <i class="small material-icons">mode_edit</i>
+                            <i class="small material-icons">delete</i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="toolbar">
+        <ul class="pagination">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+</div>
+

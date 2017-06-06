@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PMSystem.Entities
 {
@@ -14,7 +15,8 @@ namespace PMSystem.Entities
 
         public DateTime DateCreated { get; set; }
 
-        public int IssueId { get; set; }
+        [Key]
+        public int Id { get; set; }
 
         public string Status { get; set; }
 

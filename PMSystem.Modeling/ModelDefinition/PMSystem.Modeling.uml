@@ -1,0 +1,2265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm13="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="b1059d0e-3381-4558-9424-331465a8d002"
+  name="PMSystem.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="3d3366e5-2234-47f3-9c43-dfcf7b0502c5"
+        name="Администратор"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fa79c818-062c-4c05-84af-f92041606eda"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="Создать проект"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f07a1166-2f80-4754-aa36-3a62e80acfcd"
+              LastKnownName="Создать проект"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea0796cc-6220-4b1a-a774-9ff7353b985a"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88540ada-76c3-4381-aefc-bc8b3806b5ba"
+                  name="Создать проект"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7b209d71-8a6a-468a-a624-37cbbf828cca"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="Создать задачу"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b3a222fa-47bc-47bd-81aa-a69921702a2a"
+              LastKnownName="Создать задачу"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aa65d23f-28e3-496f-a42f-4ef888cc824f"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6ee29e1a-2664-4f63-807c-10fcf787382d"
+                  name="Создать задачу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0d75ea2d-2d10-4604-97b4-257bf5fdf2de"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="Добавить пользователя"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="081acd5f-47b0-4560-86d9-e3f7a1dfaa02"
+              LastKnownName="Добавить пользователя"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13a4ec0f-931f-4174-ab05-97ffb6498ed6"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="23549256-407d-4777-b1d4-f472a1d7c0a9"
+                  name="Добавить пользователя"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0596619a-7f59-4701-bba6-f54bda9276ec"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="Удалить проект"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="eab6bdef-9281-4962-b2cc-8b903979096c"
+              LastKnownName="Удалить проект"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="98cb094c-621f-4171-9316-87b0b47eab02"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8083ffb4-0d58-4515-abda-e812865a46e8"
+                  name="Удалить проект"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fe92590f-2728-45a6-b04b-d7c3499783c3"
+            isDerived="false"
+            sourceEndRoleName="Администратор"
+            targetEndRoleName="Удалить задачу"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="40b50989-7be4-4dbd-8b07-5adfcbb3e652"
+              LastKnownName="Удалить задачу"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f1127237-44a4-49f1-8d80-89dda0773adc"
+                  name="Администратор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b6594552-d69f-463c-87ef-e1b7dc3d72ca"
+                  name="Удалить задачу"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="e579fe46-f627-4762-bd44-e5bf15948138"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="630fa153-9c37-4e1d-8c7a-dc592bd82e94"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="64edcf7f-9e8a-47b5-8067-40170f74930e"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9152be49-8ab9-4faa-a3d3-4c6a7d04f8ac"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="dcdd9832-c76b-42b9-84b6-22c96956426e"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e897ddb5-4928-4234-aa43-999451d10fe7"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9152be49-8ab9-4faa-a3d3-4c6a7d04f8ac"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="44f40633-fdb9-43d2-ae3f-aaef557b8bb9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d36b84fe-bade-4ea0-b9cc-83495bc01c63"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="dcdd9832-c76b-42b9-84b6-22c96956426e"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e897ddb5-4928-4234-aa43-999451d10fe7"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7147901e-e3a4-4269-82cb-f2abd56161de"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="64edcf7f-9e8a-47b5-8067-40170f74930e"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ff9655e3-346c-4150-b3f8-41a71325fd5c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c8f45187-7c07-4088-b93e-f74ee7df1d98"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="da1f2604-d679-4ae7-890b-da5b87d12ecd"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7b9b30b0-e040-4b0b-a73e-cb744c6bdcb1"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ec7b42c-814c-449d-b522-c2c2fc28c516"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="470c2ce1-cd95-4084-b397-720363aedf47"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7b9b30b0-e040-4b0b-a73e-cb744c6bdcb1"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2e0c5c93-336b-4c9d-a8ed-be2778816650"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="de0949a1-9993-4c3f-8b6c-8cfd2bd20e38"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6ec7b42c-814c-449d-b522-c2c2fc28c516"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="470c2ce1-cd95-4084-b397-720363aedf47"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="520b78c4-fccc-425e-9054-c396c6f91914"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="da1f2604-d679-4ae7-890b-da5b87d12ecd"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a4367e82-f3b9-43a3-b82d-54b44ced0658"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a2da2c28-1af6-4c9f-97d9-ed5204073032"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9f40008a-d296-4012-81ce-13048e4ec0ef"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="32cda762-86d0-4ed7-9a54-044828e41e57"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="28363fc9-3a38-45b2-9afa-41d881ac2336"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a04033a6-4b76-43e8-bf22-6da707c731cb"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="32cda762-86d0-4ed7-9a54-044828e41e57"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="36ffaa83-5e48-457a-a4f7-00b543eea2ad"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2fd97bd1-2a4c-4e13-9dc2-152a0299a6b6"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="28363fc9-3a38-45b2-9afa-41d881ac2336"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a04033a6-4b76-43e8-bf22-6da707c731cb"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6d6832bb-3fa2-4175-be48-892d02f47f12"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9f40008a-d296-4012-81ce-13048e4ec0ef"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c2355d8c-5517-4ba5-919e-5a0d514ea394"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cd6bfe72-4093-4bfe-ae44-13ed1bbb3f07"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="5a904379-1960-4cd6-a0f3-b94054b2c484"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="428ce381-15b6-423a-b315-9240398454dc"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6aa8d736-2e71-45b8-a41b-e2fc5452632f"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a313bf5a-2beb-4352-9e4c-48c6ff3dbe0f"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="428ce381-15b6-423a-b315-9240398454dc"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f57c4468-4e25-4787-8ddd-c828f3fd0f76"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6aa8d736-2e71-45b8-a41b-e2fc5452632f"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5eaf61c9-2c2f-4b50-a240-d6c55ed361ba"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a313bf5a-2beb-4352-9e4c-48c6ff3dbe0f"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f7b37395-e273-41b8-9c47-2f9dcc6a61ee"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5a904379-1960-4cd6-a0f3-b94054b2c484"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="34a7ab13-8269-4b22-b566-d3efb4cb6a79"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="07c6fb64-c8d6-4ab5-a9d4-d33a9c03b338"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="84f718d5-2131-4fd2-be14-d6a58e2ed6da"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="84320522-df19-4561-a97f-8d3f31009f10"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6604063-054e-4f55-a72c-2145b2fb0de4"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6a27365e-5374-4c43-9d66-7cbb18ee2818"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="84320522-df19-4561-a97f-8d3f31009f10"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0c4f36ff-cde8-417d-869e-70459f11b6ad"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b6604063-054e-4f55-a72c-2145b2fb0de4"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b4a3acdb-4641-4aba-ab63-b4cef5645165"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6a27365e-5374-4c43-9d66-7cbb18ee2818"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="34cb0fbd-197c-4857-a845-9ff91328d405"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="84f718d5-2131-4fd2-be14-d6a58e2ed6da"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="70e40909-8d5c-4c96-a176-43acea14e6c4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="be3a69c4-b030-4a97-ae7b-48118911d494"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="8140e142-c957-421a-a04b-b0baf196ac60"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e99a8ad5-df3c-4af4-8265-46e0a3b3ca38"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="7e5c011a-4632-44c1-93ba-a750656bb833"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="46928bf1-0106-4d38-9d2e-b095625e2a64"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e99a8ad5-df3c-4af4-8265-46e0a3b3ca38"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="71b5a7a4-3198-4790-ac44-94e4d4f46b80"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6b4cbd53-23d3-494f-85c2-b4b2b4726631"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7e5c011a-4632-44c1-93ba-a750656bb833"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="46928bf1-0106-4d38-9d2e-b095625e2a64"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4f9ade97-310d-4272-812f-b350accf112a"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="8140e142-c957-421a-a04b-b0baf196ac60"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="eb600f55-f703-47e2-bbff-44ce2c994775"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+                LastKnownName="Задача"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0916395f-db28-4686-8490-795003da26a8"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="9113136c-0b92-4b96-87d5-949f191da04e"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7556b313-9d76-4c92-be89-1cbc354db5d3"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="13c7f7f2-ab8a-499f-b518-c804f7f16df2"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="786b4b04-880b-4a96-90f0-9531a97efb96"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7556b313-9d76-4c92-be89-1cbc354db5d3"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="01b8ead2-b349-4daa-948e-1f43666c8c5e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f7f3f358-ab08-4618-999d-b960ac33cbc5"
+            name="MessageOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="13c7f7f2-ab8a-499f-b518-c804f7f16df2"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="786b4b04-880b-4a96-90f0-9531a97efb96"
+            name="MessageOccurrenceSpecification35">
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e6006a05-3085-4480-b6ef-6d45db2e53c7"
+            name="MessageOccurrenceSpecification36">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="9113136c-0b92-4b96-87d5-949f191da04e"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="16174b81-3605-42c7-b786-fcbf9fa9282c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+                LastKnownName="Проект"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2262e337-d62a-4f48-b30b-edd1736ffbdf"
+            name="BehaviorExecutionSpecification11">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="de8050e4-cde0-40be-b7e0-135b859667c8"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3a1813e2-6f7d-4c9f-8ee2-831902921071"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="48caeeae-92ee-457e-a75d-49485054266c"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="35ba6723-21c4-4809-8b4e-409fac85af04"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3a1813e2-6f7d-4c9f-8ee2-831902921071"
+            name="ExecutionOccurrenceSpecification21">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6c58bc92-557f-4924-a430-018c963c800b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="293b4679-0696-4f36-a1c9-1b04f63d64bf"
+            name="MessageOccurrenceSpecification37">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="48caeeae-92ee-457e-a75d-49485054266c"
+            name="MessageOccurrenceSpecification38">
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="35ba6723-21c4-4809-8b4e-409fac85af04"
+            name="MessageOccurrenceSpecification39">
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c3978eb7-c426-43bf-990a-aab3afbf8376"
+            name="MessageOccurrenceSpecification40">
+            <covered>
+              <lifelineMoniker
+                Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+                LastKnownName="Пользователь : Administrator"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="de8050e4-cde0-40be-b7e0-135b859667c8"
+            name="ExecutionOccurrenceSpecification22">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ef8d9e6e-1c82-4d86-80da-08d10e1f6a20"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+                LastKnownName="Учетная запись"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="1e5bc0f1-321c-4832-aa97-13d07f6ade45"
+            name="Пользователь : Administrator"
+            isActor="true"
+            lifelineDisplayName="Пользователь : Administrator">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d36b84fe-bade-4ea0-b9cc-83495bc01c63"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7147901e-e3a4-4269-82cb-f2abd56161de"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="de0949a1-9993-4c3f-8b6c-8cfd2bd20e38"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="520b78c4-fccc-425e-9054-c396c6f91914"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2fd97bd1-2a4c-4e13-9dc2-152a0299a6b6"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6d6832bb-3fa2-4175-be48-892d02f47f12"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5eaf61c9-2c2f-4b50-a240-d6c55ed361ba"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f7b37395-e273-41b8-9c47-2f9dcc6a61ee"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b4a3acdb-4641-4aba-ab63-b4cef5645165"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="34cb0fbd-197c-4857-a845-9ff91328d405"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6b4cbd53-23d3-494f-85c2-b4b2b4726631"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4f9ade97-310d-4272-812f-b350accf112a"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f7f3f358-ab08-4618-999d-b960ac33cbc5"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e6006a05-3085-4480-b6ef-6d45db2e53c7"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="293b4679-0696-4f36-a1c9-1b04f63d64bf"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c3978eb7-c426-43bf-990a-aab3afbf8376"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="771b498d-8e85-43ac-95a8-6a6c280c9ead"
+            name="Проект"
+            isActor="false"
+            lifelineDisplayName="Проект">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="9152be49-8ab9-4faa-a3d3-4c6a7d04f8ac"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="64edcf7f-9e8a-47b5-8067-40170f74930e"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7556b313-9d76-4c92-be89-1cbc354db5d3"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9113136c-0b92-4b96-87d5-949f191da04e"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="002b2b87-45d8-475a-a9b8-5b87fbe38ecf"
+            name="Задача"
+            isActor="false"
+            lifelineDisplayName="Задача">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="32cda762-86d0-4ed7-9a54-044828e41e57"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9f40008a-d296-4012-81ce-13048e4ec0ef"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="428ce381-15b6-423a-b315-9240398454dc"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5a904379-1960-4cd6-a0f3-b94054b2c484"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e99a8ad5-df3c-4af4-8265-46e0a3b3ca38"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8140e142-c957-421a-a04b-b0baf196ac60"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f61a229a-71b1-4e6d-a733-ca711fb3229a"
+            name="Учетная запись"
+            isActor="false"
+            lifelineDisplayName="Учетная запись">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="7b9b30b0-e040-4b0b-a73e-cb744c6bdcb1"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="da1f2604-d679-4ae7-890b-da5b87d12ecd"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="84320522-df19-4561-a97f-8d3f31009f10"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="84f718d5-2131-4fd2-be14-d6a58e2ed6da"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3a1813e2-6f7d-4c9f-8ee2-831902921071"
+                LastKnownName="ExecutionOccurrenceSpecification21"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="de8050e4-cde0-40be-b7e0-135b859667c8"
+                LastKnownName="ExecutionOccurrenceSpecification22"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="ae9d2566-21a8-4a2c-ba94-74ec76472e52"
+            name="Создать проект"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d36b84fe-bade-4ea0-b9cc-83495bc01c63"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="dcdd9832-c76b-42b9-84b6-22c96956426e"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="73fd71bb-e11e-4a88-9bd6-e8cb2311c4b4"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e897ddb5-4928-4234-aa43-999451d10fe7"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7147901e-e3a4-4269-82cb-f2abd56161de"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="09cc1399-2804-4035-ba5f-e4a08fd83e4c"
+            name="Добаввить учетную запись"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="de0949a1-9993-4c3f-8b6c-8cfd2bd20e38"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ec7b42c-814c-449d-b522-c2c2fc28c516"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e9b58400-f6f7-4185-8d4a-2473a0012a6f"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="470c2ce1-cd95-4084-b397-720363aedf47"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="520b78c4-fccc-425e-9054-c396c6f91914"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a1c72b58-6dd2-4fb4-83f3-7755ed3ded83"
+            name="Добавить задачу"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2fd97bd1-2a4c-4e13-9dc2-152a0299a6b6"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="28363fc9-3a38-45b2-9afa-41d881ac2336"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9fe2626f-6917-4fea-b528-3cfde6f95d2a"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a04033a6-4b76-43e8-bf22-6da707c731cb"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6d6832bb-3fa2-4175-be48-892d02f47f12"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="74ea9d99-8179-4030-9c1c-e2114e2f5a2f"
+            name="Редактировать задачу"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5eaf61c9-2c2f-4b50-a240-d6c55ed361ba"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6aa8d736-2e71-45b8-a41b-e2fc5452632f"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9c49d836-cd6f-49aa-ae05-b55335bb2c0a"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a313bf5a-2beb-4352-9e4c-48c6ff3dbe0f"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7b37395-e273-41b8-9c47-2f9dcc6a61ee"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="69d0a2c9-227e-4378-a251-7c32af65ca80"
+            name="Редактировать учетную запись"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b4a3acdb-4641-4aba-ab63-b4cef5645165"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6604063-054e-4f55-a72c-2145b2fb0de4"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e5d5382f-d87e-4f7a-b217-07b85f43644b"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6a27365e-5374-4c43-9d66-7cbb18ee2818"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="34cb0fbd-197c-4857-a845-9ff91328d405"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b2219d0c-7279-471f-8144-ab0537d648e7"
+            name="Удалить задачу"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6b4cbd53-23d3-494f-85c2-b4b2b4726631"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7e5c011a-4632-44c1-93ba-a750656bb833"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b6b5222b-04d7-4558-b2ed-7c4fe2d2c636"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="46928bf1-0106-4d38-9d2e-b095625e2a64"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4f9ade97-310d-4272-812f-b350accf112a"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="be69da6f-bedc-411b-b796-20c42e865ad0"
+            name="Удалить проект"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7f3f358-ab08-4618-999d-b960ac33cbc5"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="13c7f7f2-ab8a-499f-b518-c804f7f16df2"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="96395c3c-3b56-469c-9281-5edd5e90beb0"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="786b4b04-880b-4a96-90f0-9531a97efb96"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e6006a05-3085-4480-b6ef-6d45db2e53c7"
+                LastKnownName="MessageOccurrenceSpecification36"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="67a9a91a-f633-42ec-9137-0bc687b962d7"
+            name="Удалить учетную запись"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="293b4679-0696-4f36-a1c9-1b04f63d64bf"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="48caeeae-92ee-457e-a75d-49485054266c"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2e3a0b8e-f6c9-4066-90ac-2f16549a1d6e"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="35ba6723-21c4-4809-8b4e-409fac85af04"
+                LastKnownName="MessageOccurrenceSpecification39"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c3978eb7-c426-43bf-990a-aab3afbf8376"
+                LastKnownName="MessageOccurrenceSpecification40"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="44f40633-fdb9-43d2-ae3f-aaef557b8bb9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ff9655e3-346c-4150-b3f8-41a71325fd5c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2e0c5c93-336b-4c9d-a8ed-be2778816650"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a4367e82-f3b9-43a3-b82d-54b44ced0658"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="36ffaa83-5e48-457a-a4f7-00b543eea2ad"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c2355d8c-5517-4ba5-919e-5a0d514ea394"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f57c4468-4e25-4787-8ddd-c828f3fd0f76"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="34a7ab13-8269-4b22-b566-d3efb4cb6a79"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0c4f36ff-cde8-417d-869e-70459f11b6ad"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="70e40909-8d5c-4c96-a176-43acea14e6c4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="71b5a7a4-3198-4790-ac44-94e4d4f46b80"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="eb600f55-f703-47e2-bbff-44ce2c994775"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="01b8ead2-b349-4daa-948e-1f43666c8c5e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="16174b81-3605-42c7-b786-fcbf9fa9282c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6c58bc92-557f-4924-a430-018c963c800b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ef8d9e6e-1c82-4d86-80da-08d10e1f6a20"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f07a1166-2f80-4754-aa36-3a62e80acfcd"
+        name="Создать проект"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="f78d1a66-067e-412a-81cf-ed6af479a9cd">
+            <useCaseMoniker
+              Id="6233431f-c861-4cc0-860e-7b438cfbfeaa"
+              LastKnownName="Назначить менеджера"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="e0635f19-3f3d-4968-abba-a7bf7f2dbf4d">
+            <useCaseMoniker
+              Id="f99990b6-ee40-48b9-87b8-f45e1cbc25e5"
+              LastKnownName="Добавить категории"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="5d7a73a7-95ca-476d-b910-48311d408d7f">
+            <useCaseMoniker
+              Id="9a34f3f9-d39d-43c9-887a-2ebf70ac4dc2"
+              LastKnownName="Добавить статусы"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="b3200bb2-7a40-44de-90a0-a78b41e784f8">
+            <useCaseMoniker
+              Id="9559a00c-a925-449f-acdc-f1ffa47596ab"
+              LastKnownName="Добавить приоритеты"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="ec339e14-b693-4017-83d9-6faffe24923a">
+            <useCaseMoniker
+              Id="e8ae05cc-c007-446e-92de-a97acc4306a9"
+              LastKnownName="Добавить этапы"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="4537e6f7-86ed-4ab0-b5c1-7f0cf63ce149">
+            <useCaseMoniker
+              Id="980e55b5-d76e-43d8-b648-322fca8e2fba"
+              LastKnownName="Назначить исполнителей"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="245040e6-e025-4c5b-8651-830dc7603c6a">
+            <useCaseMoniker
+              Id="c24a6e9c-0c0f-4eb2-b628-fbb907489bc4"
+              LastKnownName="Добавить типы задач"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6233431f-c861-4cc0-860e-7b438cfbfeaa"
+        name="Назначить менеджера"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f99990b6-ee40-48b9-87b8-f45e1cbc25e5"
+        name="Добавить категории"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9a34f3f9-d39d-43c9-887a-2ebf70ac4dc2"
+        name="Добавить статусы"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9559a00c-a925-449f-acdc-f1ffa47596ab"
+        name="Добавить приоритеты"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e8ae05cc-c007-446e-92de-a97acc4306a9"
+        name="Добавить этапы"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c24a6e9c-0c0f-4eb2-b628-fbb907489bc4"
+        name="Добавить типы задач"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="980e55b5-d76e-43d8-b648-322fca8e2fba"
+        name="Назначить исполнителей"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b3a222fa-47bc-47bd-81aa-a69921702a2a"
+        name="Создать задачу"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="35cb48aa-1118-4d0d-907a-347e2dc43057">
+            <useCaseMoniker
+              Id="fea7711a-348c-4c8a-a186-27a1e99f72fd"
+              LastKnownName="Назначить приоритет"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="818303fa-623b-4250-86fd-258d16bd2916">
+            <useCaseMoniker
+              Id="6dd8bca6-d60e-43e1-8141-62f603ba1307"
+              LastKnownName="Назначить исполнителя"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="4989bd84-fda8-4738-8cfd-3d13c25330e2">
+            <useCaseMoniker
+              Id="86817460-e082-4262-93b0-e599280695f9"
+              LastKnownName="Выбрать решения"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="388b8bbf-53d0-4052-a0d4-54ba505b93f1">
+            <useCaseMoniker
+              Id="5e1a23f3-87ea-4378-bcc0-2939e3337e26"
+              LastKnownName="Назначить категорию"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="2716d850-585d-4029-b5fc-d01ce97a6231">
+            <useCaseMoniker
+              Id="053a1b07-393d-438d-aa2d-965823100528"
+              LastKnownName="Выбрать тип задачи"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6dd8bca6-d60e-43e1-8141-62f603ba1307"
+        name="Назначить исполнителя"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5e1a23f3-87ea-4378-bcc0-2939e3337e26"
+        name="Назначить категорию"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fea7711a-348c-4c8a-a186-27a1e99f72fd"
+        name="Назначить приоритет"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="053a1b07-393d-438d-aa2d-965823100528"
+        name="Выбрать тип задачи"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="86817460-e082-4262-93b0-e599280695f9"
+        name="Выбрать решения"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="081acd5f-47b0-4560-86d9-e3f7a1dfaa02"
+        name="Добавить пользователя"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="7ce52c45-f31d-44a3-9056-2a75e5a47cb8">
+            <useCaseMoniker
+              Id="dc65d19c-b8ba-44fd-9370-161079944064"
+              LastKnownName="Назначить роль"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+          <include
+            Id="f637adc0-d264-4459-acfe-dcdc982e8591">
+            <useCaseMoniker
+              Id="ff1e7262-d545-4d27-99b8-7f6e967bcce2"
+              LastKnownName="Добавить пользователя на проект"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="40b50989-7be4-4dbd-8b07-5adfcbb3e652"
+        name="Удалить задачу"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="eab6bdef-9281-4962-b2cc-8b903979096c"
+        name="Удалить проект"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dc65d19c-b8ba-44fd-9370-161079944064"
+        name="Назначить роль"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ff1e7262-d545-4d27-99b8-7f6e967bcce2"
+        name="Добавить пользователя на проект"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="737b7a0e-db48-4168-82d5-3fad67aad414"
+        name="PMSystem"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="03b0bb62-cbd8-47b8-b130-dedd1fe8d175">
+            <componentMoniker
+              Id="115b4f93-2dd0-4b0e-aff1-38f31b8a0517"
+              LastKnownName="База данных"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <part
+            Id="b8daf8ff-6bfe-477e-881a-bec167c5ca07"
+            name="Контроллеры"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="Composite"
+            isComposite="true">
+            <type_NamedElement>
+              <componentMoniker
+                Id="4cb0a8bc-8b22-4fa1-8490-e37b7244f29f"
+                LastKnownName="Component2"
+                LastKnownLocation="PMSystem.Modeling.uml" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="115b4f93-2dd0-4b0e-aff1-38f31b8a0517"
+        name="База данных"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="4cb0a8bc-8b22-4fa1-8490-e37b7244f29f"
+        name="Component2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="1c953d18-a7dd-441e-b507-1bcfa8a75ded"
+        name="Component3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="3a076f3c-6402-427d-be46-546057b7a53e"
+        name="Модуль работы с БД"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="7068c135-ee91-4fbc-b18d-5d0025f61f89">
+            <componentMoniker
+              Id="737b7a0e-db48-4168-82d5-3fad67aad414"
+              LastKnownName="PMSystem"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="42947c12-8e25-487d-9a31-c69d05aba050"
+        name="Стили"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="f756947d-c931-4bf5-9e12-a35db9517169">
+            <componentMoniker
+              Id="737b7a0e-db48-4168-82d5-3fad67aad414"
+              LastKnownName="PMSystem"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="f8add0a4-0182-4c13-81a5-68330e72621e"
+        name="Скрипты"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="d53f5177-a396-4249-9dbd-50a70cba5fe8">
+            <componentMoniker
+              Id="737b7a0e-db48-4168-82d5-3fad67aad414"
+              LastKnownName="PMSystem"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="859f3462-dbdf-432b-94c5-7efe8c2e25ff"
+        name="Html Страницы"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="34274623-8478-49b7-8429-f892d3a1c1bb">
+            <componentMoniker
+              Id="737b7a0e-db48-4168-82d5-3fad67aad414"
+              LastKnownName="PMSystem"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="7389e353-a573-4d95-a126-6052206ab6b4"
+        name="Модуль для работы с бизнес логикой"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="93b658dc-0443-4219-8e9d-0ff8245e465b">
+            <componentMoniker
+              Id="737b7a0e-db48-4168-82d5-3fad67aad414"
+              LastKnownName="PMSystem"
+              LastKnownLocation="PMSystem.Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="b769bd7a-7e2a-40d3-89e9-4866686696cb"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="dc02ca74-de5b-4d82-8a27-835027fb01a4"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ccbaba2e-2e0f-4602-9ed7-4f95ef37c275"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="fb01a125-8a5d-469e-a129-60499b7ef000"
+                  LastKnownName="Открыть браузер"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="fb01a125-8a5d-469e-a129-60499b7ef000"
+            name="Открыть браузер"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="4d7cb128-5732-4f42-bad2-76224d0006b1"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="3a5bf06d-00b4-4745-a5e8-ff77076a9f52"
+                  LastKnownName="Ввести адрес сайта"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="3a5bf06d-00b4-4745-a5e8-ff77076a9f52"
+            name="Ввести адрес сайта"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="95094dd9-b179-47f4-bc74-8290e32ba4f9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="bce0e2c9-bc57-42fb-b0bf-60fd9d00ff1b"
+                  LastKnownName="Ввести логин и  пароль"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="bce0e2c9-bc57-42fb-b0bf-60fd9d00ff1b"
+            name="Ввести логин и  пароль"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f339b26a-fa6c-4a5f-a26b-58f3284f5eb0"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="c98afe49-34b2-440a-8e6b-88ac0788332c"
+                  LastKnownName="Нажать кнопку войти"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="c98afe49-34b2-440a-8e6b-88ac0788332c"
+            name="Нажать кнопку войти"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="65e9a359-26ed-42b1-8568-7eb977e45ba1"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="07d21cb5-3100-4672-aa09-b12c3adcecd1"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="77de8d71-09d2-48f0-9a5b-5f14f58c3851"
+            name="Создать проект"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ff23d3b7-ee4d-4a66-a321-b9584fa42120"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6da48439-cb08-4e5b-91cb-3c829872b4da"
+                  LastKnownName="Ввести данные проекта"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="6da48439-cb08-4e5b-91cb-3c829872b4da"
+            name="Ввести данные проекта"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="64c6a30f-a642-4011-8c1f-25a2c296f767"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="dbec19e6-9deb-4094-a9a4-4710bffea06c"
+                  LastKnownName="Добавить задачу"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="dbec19e6-9deb-4094-a9a4-4710bffea06c"
+            name="Добавить задачу"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7ddb37fe-8ee5-4122-b18e-1f6c097cc69c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="0432d46e-136c-4ef8-b09b-a6c573e1d8d7"
+                  LastKnownName="Ввести описание задачи"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="0432d46e-136c-4ef8-b09b-a6c573e1d8d7"
+            name="Ввести описание задачи"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b69be6b2-729f-40d3-b983-c3e4698c03ce"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="c193d001-a067-4ef5-85f2-3b3f426631e4"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="c193d001-a067-4ef5-85f2-3b3f426631e4"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <decisionNode
+            Id="07d21cb5-3100-4672-aa09-b12c3adcecd1"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dd7216c7-55f0-4dc9-b1ac-d94943a3a73b"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="77de8d71-09d2-48f0-9a5b-5f14f58c3851"
+                  LastKnownName="Создать проект"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="17a17725-55aa-488e-a00c-a8a786b7070d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="dbec19e6-9deb-4094-a9a4-4710bffea06c"
+                  LastKnownName="Добавить задачу"
+                  LastKnownLocation="PMSystem.Modeling.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityParameterNode
+            Id="b6a6e645-271f-4536-b434-0d834ec3fa8d"
+            name="Проект создан"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="12596f0d-a4f6-4820-a002-0c3e7f69e220"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </activityParameterNode>
+          <objectNode
+            Id="c7f08590-4e92-4405-996c-38884f7a8f60"
+            name="Проект не создан"
+            isLeaf="false"
+            ordering="Unordered"
+            isControlType="false">
+            <upperBound>
+              <literalInteger
+                Id="db33d61a-c5de-48d8-a60a-ae6d5d32d804"
+                name="2147483647"
+                value="2147483647" />
+            </upperBound>
+          </objectNode>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

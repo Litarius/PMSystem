@@ -1,0 +1,53 @@
+﻿@model PMSystem.ViewModels.Admin.AccountViewModel
+
+@{
+    ViewBag.Title = "Редактирование пользователей";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <h4>Пользователи</h4>
+    <hr/>
+    <div class="toolbar">
+        <a href="@Url.Action("Users")" class="btn">Создать нового пользователя</a>
+    </div>
+
+    <div>
+
+        <table class="responsive-table">
+            <thead>
+            <tr>
+                <td>Логин</td>
+                <td>Имя</td>
+                <td>Email</td>
+                <td>Дата создания</td>
+                <td>Статус авторизации</td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model.Users)
+            {
+                <tr>
+                    <td>@item.UserName</td>
+                    <td>@item.User</td>
+                    <td>@item.Email</td>
+                    <td>@item.DateCreated</td>
+                    <td>@item.IsAuthorized</td>
+                    <td><i class="small material-icons">mode_edit</i>
+                        <i class="small material-icons">delete</i></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+    <div class="toolbar">
+        <p>1-3 из 3</p>
+        <select class="dropdown-button">
+            <option value="10">10</option>
+            <option value="20">20</option>
+        </select>
+    </div>
+
+</div>
+

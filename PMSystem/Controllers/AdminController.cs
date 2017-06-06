@@ -21,9 +21,16 @@ namespace PMSystem.Controllers
             return View(model);
         }
 
+
+
         public ActionResult CreateProject()
         {
             return View();
+        }
+
+        public ActionResult Accounts()
+        {
+            return View(new AccountViewModel());
         }
     }
 }

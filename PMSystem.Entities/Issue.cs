@@ -11,7 +11,6 @@ namespace PMSystem.Entities
     {
         public Issue()
         {
-            AssignedUser = new ITUser(new Guid(), string.Empty, string.Empty);
             AssignedDisplayName = string.Empty;
             AssignedUserName = string.Empty;
             LastUpdateUserName = string.Empty;
@@ -37,8 +36,6 @@ namespace PMSystem.Entities
         public decimal Estimation { get; set; }
 
         public double TimeLogged { get; set; }
-
-        public ITUser AssignedUser { get; set; }
 
         public string AssignedDisplayName { get; set; }
 
@@ -127,6 +124,17 @@ namespace PMSystem.Entities
         public string Title { get; set; }
 
         public string Description { get; set; }
+
+        public virtual ICollection<IssueAttachment> IssueAttachments { get; set; }
+        public virtual ICollection<IssueComment> IssueComments { get; set; }
+        public virtual ICollection<IssueNotification> IssueNotifications { get; set; }
+        public virtual ICollection<IssueRevision> IssueRevisions { get; set; }
+        public virtual ICollection<RelatedIssue> RelatedIssues { get; set; }
+
+
+
+
+
 
 
         private string EstimationToString(decimal estimation)

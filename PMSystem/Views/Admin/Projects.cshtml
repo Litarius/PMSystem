@@ -5,7 +5,7 @@
 }
 
 <div class="row">
-    <h4>Projects</h4>
+    <h4>Проекты</h4>
     <hr/>
     
     <div class="toolbar">
@@ -22,6 +22,7 @@
                 <td>@Resources.Localizaion.Created</td>
                 <td>@Resources.Localizaion.CreatedBy</td>
                 <td>@Resources.Localizaion.Disabled</td>
+                <td></td>
             </tr>
             </thead>
             <tbody>
@@ -34,10 +35,22 @@
                     <td>@item.DateCreated</td>
                     <td>@item.CreatorUserName</td>
                     <td>@item.Disabled</td>
+                    <td>
+                        <i class="small material-icons">mode_edit</i>
+                        <i class="small material-icons">delete</i>
+                    </td>
                 </tr>
             }
             </tbody>
         </table>
+    </div>
+    <div class="toolbar">
+        <ul class="pagination">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
     </div>
 </div>
 

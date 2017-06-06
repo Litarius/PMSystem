@@ -1,0 +1,39 @@
+﻿@model PMSystem.ViewModels.Projects.AddNewProjectViewModel
+
+@{
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <h4>Добавление нового проекта</h4>
+    <hr/>
+    
+    <div class="input-field">
+        <label>Название проекта</label>
+        @Html.TextBoxFor(m => m.Project.Name, new {@class = "validate"})
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new {@class = "text-danger"})
+    </div>
+    
+    <div class="input-field">
+        <label>Описание проекта</label>
+        @Html.TextBoxFor(m => m.Project.Name, new {@class = "validate"})
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new {@class = "text-danger"})
+    </div>
+    
+    <div class="input-field">
+        <label>Менеджер проекта</label>
+        @Html.TextBoxFor(m => m.Project.Name, new {@class = "validate"})
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new {@class = "text-danger"})
+    </div>
+    
+   
+    <div class="chips chips-placeholder-pri"></div>
+    <div class="chips chips-placeholder-sta"></div>
+    <div class="chips chips-placeholder-cat"></div>
+    <div class="chips chips-placeholder-ttt"></div>
+    
+    
+    <div class="toolbar">
+        <a class="btn">Сохранить</a>
+    </div>
+</div>

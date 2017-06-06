@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="efd93e73-8135-4226-a5a3-4ab9798880ff" name="UMLUseCaseDiagram1" linkedPackageId="5bbee5c0-fa38-45ce-bc11-8a12974d9199" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="7ea80634-4878-4e75-b739-cde183fa8b80">
+      <profileInstance Id="de57fb2d-10be-4cde-b1c2-8ac48ff2ddb7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d0df3b54-fdd7-4aa9-8ff8-d62bf63cc699">
+      <profileInstance Id="55afabe2-c332-4e52-8f84-3cc633ad2693" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="d4e31d40-d3d2-409c-bee2-532352e25af9" name="Администратор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3d3366e5-2234-47f3-9c43-dfcf7b0502c5" />
+        <targetEnds>
+          <association Id="ffeeb603-1f57-4cb8-9954-2aab1d6d2fd8" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Создать проект" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c5852f72-8bc8-45dc-ab6a-ac78a493b769" LastKnownName="Создать проект" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f47dc3d3-9613-41a2-aaf9-42e5845b0087" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea0796cc-6220-4b1a-a774-9ff7353b985a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="886d6297-8df2-4b60-af7b-62f09f093fc6" name="Создать проект" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="88540ada-76c3-4381-aefc-bc8b3806b5ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fa79c818-062c-4c05-84af-f92041606eda" />
+          </association>
+          <association Id="e690cf4b-fb77-44be-bdd1-1038630ee43e" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Создать задачу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="82499b4f-487e-4899-ab64-11d4f699da56" LastKnownName="Создать задачу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08f98443-e13a-4149-b509-d37678d42473" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aa65d23f-28e3-496f-a42f-4ef888cc824f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bb4129c5-4b11-4fd7-a458-125b69a2e925" name="Создать задачу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6ee29e1a-2664-4f63-807c-10fcf787382d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7b209d71-8a6a-468a-a624-37cbbf828cca" />
+          </association>
+          <association Id="bc148f4e-9a72-4b19-b39c-73be32b551b8" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Добавить пользователя" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7f5346fd-b0e6-4555-b3aa-77e8e1bd184f" LastKnownName="Добавить пользователя" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5d83c8e8-eb54-42e5-aee9-055efbc5d21b" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="13a4ec0f-931f-4174-ab05-97ffb6498ed6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cdab9393-87ca-4f87-8051-90f09ee38e5b" name="Добавить пользователя" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="23549256-407d-4777-b1d4-f472a1d7c0a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0d75ea2d-2d10-4604-97b4-257bf5fdf2de" />
+          </association>
+          <association Id="18569f89-7568-484f-8cd8-383319b667a0" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Удалить проект" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b86d4784-8ef1-4c18-a4eb-f98976950ade" LastKnownName="Удалить проект" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77a0e03a-b642-4f38-8781-90df50b12695" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="98cb094c-621f-4171-9316-87b0b47eab02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cf212c58-1496-4f9f-944b-bb980bb8da2e" name="Удалить проект" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8083ffb4-0d58-4515-abda-e812865a46e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0596619a-7f59-4701-bba6-f54bda9276ec" />
+          </association>
+          <association Id="85db232d-e0f1-4133-8076-e33be9d06146" isDerived="false" sourceEndRoleName="Администратор" targetEndRoleName="Удалить задачу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a4eb6ea1-1551-4c88-94ea-5d8c3703f116" LastKnownName="Удалить задачу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0059e795-1944-494a-bfb5-2bdc74a65d92" name="Администратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f1127237-44a4-49f1-8d80-89dda0773adc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c3c59a59-7d8e-404a-8d52-36e7d4fb7f01" name="Удалить задачу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b6594552-d69f-463c-87ef-e1b7dc3d72ca" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe92590f-2728-45a6-b04b-d7c3499783c3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c5852f72-8bc8-45dc-ab6a-ac78a493b769" name="Создать проект" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f07a1166-2f80-4754-aa36-3a62e80acfcd" />
+        <additions>
+          <include Id="2a3085a9-36d5-4ed9-86bd-bd17101d0faa">
+            <useCaseMoniker Id="4bc3ddfe-d543-4af3-9f0d-faa1121d50b0" LastKnownName="Назначить менеджера" />
+            <elementDefinition Id="f78d1a66-067e-412a-81cf-ed6af479a9cd" />
+          </include>
+          <include Id="397d485a-6dd7-4d30-bff3-97797a826e82">
+            <useCaseMoniker Id="db1e380d-59ab-4c14-97ed-daf9274a7113" LastKnownName="Добавить категории" />
+            <elementDefinition Id="e0635f19-3f3d-4968-abba-a7bf7f2dbf4d" />
+          </include>
+          <include Id="ab2de540-8a8c-48c9-abc9-b5dee8089613">
+            <useCaseMoniker Id="e6c04053-17ca-4643-8bbc-07d55ae00dca" LastKnownName="Добавить статусы" />
+            <elementDefinition Id="5d7a73a7-95ca-476d-b910-48311d408d7f" />
+          </include>
+          <include Id="ccddb4d9-3f0a-479c-a25f-52fb474315f5">
+            <useCaseMoniker Id="ba0ce427-b3b4-4143-a5ad-156678d32553" LastKnownName="Добавить приоритеты" />
+            <elementDefinition Id="b3200bb2-7a40-44de-90a0-a78b41e784f8" />
+          </include>
+          <include Id="21987109-6030-4df4-b729-1677e5049279">
+            <useCaseMoniker Id="9697e2df-766a-436f-a782-8be31d2c1fc9" LastKnownName="Добавить этапы" />
+            <elementDefinition Id="ec339e14-b693-4017-83d9-6faffe24923a" />
+          </include>
+          <include Id="1031e280-f576-40ca-b685-8dc4b4198efc">
+            <useCaseMoniker Id="5db0d5f2-1aa0-4aa5-8295-bbbb84521115" LastKnownName="Назначить исполнителей" />
+            <elementDefinition Id="4537e6f7-86ed-4ab0-b5c1-7f0cf63ce149" />
+          </include>
+          <include Id="4392f4b4-b458-4fdd-a3a1-39f4b5e86b5f">
+            <useCaseMoniker Id="cb972826-9e39-4056-b257-b3cc8484aea4" LastKnownName="Добавить типы задач" />
+            <elementDefinition Id="245040e6-e025-4c5b-8651-830dc7603c6a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4bc3ddfe-d543-4af3-9f0d-faa1121d50b0" name="Назначить менеджера" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6233431f-c861-4cc0-860e-7b438cfbfeaa" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="db1e380d-59ab-4c14-97ed-daf9274a7113" name="Добавить категории" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f99990b6-ee40-48b9-87b8-f45e1cbc25e5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e6c04053-17ca-4643-8bbc-07d55ae00dca" name="Добавить статусы" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9a34f3f9-d39d-43c9-887a-2ebf70ac4dc2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ba0ce427-b3b4-4143-a5ad-156678d32553" name="Добавить приоритеты" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9559a00c-a925-449f-acdc-f1ffa47596ab" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9697e2df-766a-436f-a782-8be31d2c1fc9" name="Добавить этапы" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e8ae05cc-c007-446e-92de-a97acc4306a9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cb972826-9e39-4056-b257-b3cc8484aea4" name="Добавить типы задач" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c24a6e9c-0c0f-4eb2-b628-fbb907489bc4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5db0d5f2-1aa0-4aa5-8295-bbbb84521115" name="Назначить исполнителей" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="980e55b5-d76e-43d8-b648-322fca8e2fba" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="82499b4f-487e-4899-ab64-11d4f699da56" name="Создать задачу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b3a222fa-47bc-47bd-81aa-a69921702a2a" />
+        <additions>
+          <include Id="6258ffdc-8443-420e-9857-1a6eb558057d">
+            <useCaseMoniker Id="af2b8caf-e2e9-4807-aac7-fdc7cf5f31c5" LastKnownName="Назначить приоритет" />
+            <elementDefinition Id="35cb48aa-1118-4d0d-907a-347e2dc43057" />
+          </include>
+          <include Id="2f4634e7-8f73-4bb7-bc4f-d52fa022cf51">
+            <useCaseMoniker Id="3d41d7f7-e39f-476a-b1d8-b43f0b555a58" LastKnownName="Назначить исполнителя" />
+            <elementDefinition Id="818303fa-623b-4250-86fd-258d16bd2916" />
+          </include>
+          <include Id="ae5fcc80-47bf-4158-a401-3cf565e68d5e">
+            <useCaseMoniker Id="a590e9a7-1cca-49e3-b306-188e8ce27b75" LastKnownName="Выбрать решения" />
+            <elementDefinition Id="4989bd84-fda8-4738-8cfd-3d13c25330e2" />
+          </include>
+          <include Id="a9468cf7-5082-43cd-b65d-32db11205eec">
+            <useCaseMoniker Id="86148a34-a162-4071-83ff-59d6e9a3e847" LastKnownName="Назначить категорию" />
+            <elementDefinition Id="388b8bbf-53d0-4052-a0d4-54ba505b93f1" />
+          </include>
+          <include Id="50fb9cd0-cabe-4daf-9a7f-8538149512ec">
+            <useCaseMoniker Id="653a8b92-c8a4-44cd-a96a-226d523ebb1d" LastKnownName="Выбрать тип задачи" />
+            <elementDefinition Id="2716d850-585d-4029-b5fc-d01ce97a6231" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3d41d7f7-e39f-476a-b1d8-b43f0b555a58" name="Назначить исполнителя" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6dd8bca6-d60e-43e1-8141-62f603ba1307" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="86148a34-a162-4071-83ff-59d6e9a3e847" name="Назначить категорию" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5e1a23f3-87ea-4378-bcc0-2939e3337e26" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="af2b8caf-e2e9-4807-aac7-fdc7cf5f31c5" name="Назначить приоритет" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fea7711a-348c-4c8a-a186-27a1e99f72fd" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="653a8b92-c8a4-44cd-a96a-226d523ebb1d" name="Выбрать тип задачи" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="053a1b07-393d-438d-aa2d-965823100528" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a590e9a7-1cca-49e3-b306-188e8ce27b75" name="Выбрать решения" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="86817460-e082-4262-93b0-e599280695f9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7f5346fd-b0e6-4555-b3aa-77e8e1bd184f" name="Добавить пользователя" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="081acd5f-47b0-4560-86d9-e3f7a1dfaa02" />
+        <additions>
+          <include Id="1a6cb0c0-5807-4b27-80b2-9aa811471b7f">
+            <useCaseMoniker Id="bc054ed5-5ee0-4abc-bd25-0f68ea3e5c6a" LastKnownName="Назначить роль" />
+            <elementDefinition Id="7ce52c45-f31d-44a3-9056-2a75e5a47cb8" />
+          </include>
+          <include Id="9fda1d13-24cb-4282-9492-919b5e8e4465">
+            <useCaseMoniker Id="7cb64f49-a473-47c7-80d0-2718c98dbbd5" LastKnownName="Добавить пользователя на проект" />
+            <elementDefinition Id="f637adc0-d264-4459-acfe-dcdc982e8591" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a4eb6ea1-1551-4c88-94ea-5d8c3703f116" name="Удалить задачу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="40b50989-7be4-4dbd-8b07-5adfcbb3e652" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b86d4784-8ef1-4c18-a4eb-f98976950ade" name="Удалить проект" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eab6bdef-9281-4962-b2cc-8b903979096c" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bc054ed5-5ee0-4abc-bd25-0f68ea3e5c6a" name="Назначить роль" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dc65d19c-b8ba-44fd-9370-161079944064" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7cb64f49-a473-47c7-80d0-2718c98dbbd5" name="Добавить пользователя на проект" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ff1e7262-d545-4d27-99b8-7f6e967bcce2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="5bbee5c0-fa38-45ce-bc11-8a12974d9199" name="PMSystem.Modeling">
+    <elementDefinition Id="b1059d0e-3381-4558-9424-331465a8d002" />
+  </package>
+</useCaseModelRoot>

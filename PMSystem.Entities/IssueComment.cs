@@ -10,7 +10,6 @@ namespace PMSystem.Entities
     {
         public IssueComment()
         {
-            CreatorUser = new ITUser(new Guid(), string.Empty, string.Empty);
             CreatorUserName = string.Empty;
             Comment = string.Empty;
             CreatorDisplayName = string.Empty;
@@ -34,8 +33,6 @@ namespace PMSystem.Entities
         public DateTime DateCreated { get; set; }
 
         public int IssueId { get; set; }
-
-        public ITUser CreatorUser { get; set; }
 
     }
 }

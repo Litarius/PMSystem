@@ -1,0 +1,63 @@
+﻿@model PMSystem.ViewModels.Projects.AddNewProjectViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <h4>Добавление новой задачи</h4>
+    <hr />
+
+    <div class="input-field">
+        <label>Заголовок</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="input-field">
+        <label>Описание задачи</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="input-field">
+        <label>Приоритет задачи</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="input-field">
+        <label>Проект</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="input-field">
+        <label>Менеджер</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="input-field">
+        <label>Исполнитель проекта</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="input-field">
+        <label>Тип задачи</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+    
+    <div class="input-field">
+        <label>Оценочное время выполнения(ч)</label>
+        @Html.TextBoxFor(m => m.Project.Name, new { @class = "validate" })
+        @Html.ValidationMessageFor(m => m.Project.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="toolbar">
+        <a class="btn">Сохранить</a>
+    </div>
+</div>

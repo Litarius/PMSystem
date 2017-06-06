@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMSystem", "PMSystem\PMSyst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMSystem.Entities", "PMSystem.Entities\PMSystem.Entities.csproj", "{5425C99B-0903-4E1E-933F-4A053555837B}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "PMSystem.Modeling", "PMSystem.Modeling\PMSystem.Modeling.modelproj", "{A160CE78-B681-4602-AEA5-7701452E1D02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5425C99B-0903-4E1E-933F-4A053555837B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5425C99B-0903-4E1E-933F-4A053555837B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5425C99B-0903-4E1E-933F-4A053555837B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A160CE78-B681-4602-AEA5-7701452E1D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A160CE78-B681-4602-AEA5-7701452E1D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A160CE78-B681-4602-AEA5-7701452E1D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A160CE78-B681-4602-AEA5-7701452E1D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

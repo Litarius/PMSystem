@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="78bc79c0-863a-4441-862b-ba1eb0f75566" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="81800833-e0d6-4c51-bf26-f834c3a3f0ca" name="Сервер БД">
+      <childLayers>
+        <layer Id="b2952e3f-ad27-400c-aafb-c0a6909321f3" name="База данных" />
+      </childLayers>
+    </layer>
+    <layer Id="e78e10a0-de7b-45fc-b9cb-f2a922fb0f17" name="Сервер приложения">
+      <childLayers>
+        <layer Id="af9ee0ed-6aed-45d6-91d5-4166b08d82df" name="PMSystem&#xD;&#xA;">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="14c07bfc-5684-4819-bf39-33ad78c6120f" direction="Forward">
+              <layerMoniker Id="81800833-e0d6-4c51-bf26-f834c3a3f0ca" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <childLayers>
+            <layer Id="66ab04bf-019b-49ec-80c3-d57a350b1cb4" name="HTML Страницы" />
+            <layer Id="a4aa2c18-841f-43d0-966f-d13d638e7158" name="CSS" />
+            <layer Id="ca9b5c73-e59b-4d42-9b90-7224882b51c2" name="JS скрипты" />
+            <layer Id="9a264279-a1cf-4b04-b653-f9f75ee5567c" name="Шрифты" />
+            <layer Id="7bbb7ad7-9458-47e9-aac0-887ed5625d6e" name="Библиотеки (.dll)" />
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

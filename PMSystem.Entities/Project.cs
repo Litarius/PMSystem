@@ -54,8 +54,6 @@ namespace PMSystem.Entities
 
         public virtual ICollection<CustomField> CustomFields { get; set; }
 
-        public virtual ICollection<DefaultValue> DefaultValues { get; set; }
-
         public virtual ICollection<Issue> Issues { get; set; }
 
         public virtual ICollection<Milestone> Milestones { get; set; }

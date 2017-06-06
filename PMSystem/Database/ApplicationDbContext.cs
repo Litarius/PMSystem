@@ -16,12 +16,6 @@ namespace PMSystem.Database
             return new ApplicationDbContext();
         }
 
-        public IDbSet<ApplicationLog> ApplicationLogs { get; set; }
-
-        public IDbSet<DefaultValue> DefaultValues { get; set; }
-
-        public IDbSet<HostSetting> HostSettings { get; set; }
-
         public IDbSet<IssueAttachment> IssueAttachments { get; set; }
 
         public IDbSet<IssueComment> IssueComments { get; set; }
@@ -33,10 +27,6 @@ namespace PMSystem.Database
         public IDbSet<IssueRevision> IssueRevisions { get; set; }
 
         public IDbSet<Issue> Issues { get; set; }
-
-        public IDbSet<IssueVote> IssueVotes { get; set; }
-
-        public IDbSet<IssueWorkReport> IssueWorkReports { get; set; }
 
         public IDbSet<Permission> Permissions { get; set; }
 

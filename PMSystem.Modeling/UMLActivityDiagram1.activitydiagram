@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm13="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" dslVersion="1.0.0.0" Id="614fd844-98be-482e-9414-39affca55860" name="Activity1" linkedPackageId="72e2fffc-ebbd-4e1a-a711-c33b1c48952e" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="35b78339-1629-4798-bd70-21c8fa4d0a37" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="b769bd7a-7e2a-40d3-89e9-4866686696cb" />
+        <nodes>
+          <initialNode Id="7ed904b4-f2d0-4076-bd9d-ca93777f58a9" name="Initial1" isLeaf="false">
+            <elementDefinition Id="dc02ca74-de5b-4d82-8a27-835027fb01a4" />
+            <flowNodeTargets>
+              <controlFlow Id="cb3493c2-0015-4999-bed9-d5be72c44c7f" isLeaf="false">
+                <opaqueActionMoniker Id="6bb600be-2859-4723-9b16-f347fda71581" LastKnownName="Открыть браузер" />
+                <elementDefinition Id="ccbaba2e-2e0f-4602-9ed7-4f95ef37c275" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="6bb600be-2859-4723-9b16-f347fda71581" name="Открыть браузер" isLeaf="false">
+            <elementDefinition Id="fb01a125-8a5d-469e-a129-60499b7ef000" />
+            <flowNodeTargets>
+              <controlFlow Id="63795f56-fa95-4913-9151-17da6a276f8d" isLeaf="false">
+                <opaqueActionMoniker Id="669d644e-d2b3-487b-9770-d1ea826f34b3" LastKnownName="Ввести адрес сайта" />
+                <elementDefinition Id="4d7cb128-5732-4f42-bad2-76224d0006b1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="669d644e-d2b3-487b-9770-d1ea826f34b3" name="Ввести адрес сайта" isLeaf="false">
+            <elementDefinition Id="3a5bf06d-00b4-4745-a5e8-ff77076a9f52" />
+            <flowNodeTargets>
+              <controlFlow Id="0f11275e-f1eb-46af-945d-3bcc56f44337" isLeaf="false">
+                <opaqueActionMoniker Id="b8c3b531-2115-4c52-bf50-f46a39ca1612" LastKnownName="Ввести логин и  пароль" />
+                <elementDefinition Id="95094dd9-b179-47f4-bc74-8290e32ba4f9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b8c3b531-2115-4c52-bf50-f46a39ca1612" name="Ввести логин и  пароль" isLeaf="false">
+            <elementDefinition Id="bce0e2c9-bc57-42fb-b0bf-60fd9d00ff1b" />
+            <flowNodeTargets>
+              <controlFlow Id="b7887287-aa3f-40c3-b7a0-09daaef8dc60" isLeaf="false">
+                <opaqueActionMoniker Id="946d88b7-b7f5-4993-95d6-ad6a2a0ed3aa" LastKnownName="Нажать кнопку войти" />
+                <elementDefinition Id="f339b26a-fa6c-4a5f-a26b-58f3284f5eb0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="946d88b7-b7f5-4993-95d6-ad6a2a0ed3aa" name="Нажать кнопку войти" isLeaf="false">
+            <elementDefinition Id="c98afe49-34b2-440a-8e6b-88ac0788332c" />
+            <flowNodeTargets>
+              <controlFlow Id="9fa638ac-aa56-4ff2-9359-9cebb3d0bd4e" isLeaf="false">
+                <decisionNodeMoniker Id="5b68c5e2-9027-4197-9ce9-016b39c7be34" LastKnownName="Decision1" />
+                <elementDefinition Id="65e9a359-26ed-42b1-8568-7eb977e45ba1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="845b2e54-d2f9-4513-91c7-3d184c1c795f" name="Создать проект" isLeaf="false">
+            <elementDefinition Id="77de8d71-09d2-48f0-9a5b-5f14f58c3851" />
+            <flowNodeTargets>
+              <controlFlow Id="ef764be2-7d64-49f9-b657-ba438459842b" isLeaf="false">
+                <opaqueActionMoniker Id="f113bd87-0b04-4c9e-ae4a-a6ae75a4f1d1" LastKnownName="Ввести данные проекта" />
+                <elementDefinition Id="ff23d3b7-ee4d-4a66-a321-b9584fa42120" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f113bd87-0b04-4c9e-ae4a-a6ae75a4f1d1" name="Ввести данные проекта" isLeaf="false">
+            <elementDefinition Id="6da48439-cb08-4e5b-91cb-3c829872b4da" />
+            <flowNodeTargets>
+              <controlFlow Id="d5567b27-4a3b-4c21-9919-110e6c4f6f88" isLeaf="false">
+                <opaqueActionMoniker Id="0fa9008f-a152-497d-bfca-09f49c54a15d" LastKnownName="Добавить задачу" />
+                <elementDefinition Id="64c6a30f-a642-4011-8c1f-25a2c296f767" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="0fa9008f-a152-497d-bfca-09f49c54a15d" name="Добавить задачу" isLeaf="false">
+            <elementDefinition Id="dbec19e6-9deb-4094-a9a4-4710bffea06c" />
+            <flowNodeTargets>
+              <controlFlow Id="f02c84e9-71d3-4b9e-9782-2868fb84532d" isLeaf="false">
+                <opaqueActionMoniker Id="08168c3b-fe3d-4578-b0ec-ef82b1f2ff94" LastKnownName="Ввести описание задачи" />
+                <elementDefinition Id="7ddb37fe-8ee5-4122-b18e-1f6c097cc69c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="08168c3b-fe3d-4578-b0ec-ef82b1f2ff94" name="Ввести описание задачи" isLeaf="false">
+            <elementDefinition Id="0432d46e-136c-4ef8-b09b-a6c573e1d8d7" />
+            <flowNodeTargets>
+              <controlFlow Id="57be4e48-b503-4ec6-b8bc-88e3051f804b" isLeaf="false">
+                <activityFinalNodeMoniker Id="cc7bb23f-82cf-4fcc-8460-a276a89de067" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="b69be6b2-729f-40d3-b983-c3e4698c03ce" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="cc7bb23f-82cf-4fcc-8460-a276a89de067" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="c193d001-a067-4ef5-85f2-3b3f426631e4" />
+          </activityFinalNode>
+          <decisionNode Id="5b68c5e2-9027-4197-9ce9-016b39c7be34" name="Decision1" isLeaf="false">
+            <elementDefinition Id="07d21cb5-3100-4672-aa09-b12c3adcecd1" />
+            <flowNodeTargets>
+              <controlFlow Id="290e1964-41ff-4f0e-a7f1-657bd81478f5" isLeaf="false">
+                <opaqueActionMoniker Id="845b2e54-d2f9-4513-91c7-3d184c1c795f" LastKnownName="Создать проект" />
+                <elementDefinition Id="dd7216c7-55f0-4dc9-b1ac-d94943a3a73b" />
+              </controlFlow>
+              <controlFlow Id="76273e31-8e0a-44b9-bbe8-4c42bcab81b6" isLeaf="false">
+                <opaqueActionMoniker Id="0fa9008f-a152-497d-bfca-09f49c54a15d" LastKnownName="Добавить задачу" />
+                <elementDefinition Id="17a17725-55aa-488e-a00c-a8a786b7070d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityParameterNode Id="a959ee72-234a-4ee8-b9c5-021a57a24a1b" name="Проект создан" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="b6a6e645-271f-4536-b434-0d834ec3fa8d" />
+            <upperBound>
+              <literalInteger Id="cc224808-2681-4c2e-8050-e53a217c5cba" name="2147483647" value="2147483647">
+                <elementDefinition Id="12596f0d-a4f6-4820-a002-0c3e7f69e220" />
+              </literalInteger>
+            </upperBound>
+          </activityParameterNode>
+          <objectNode Id="c647d594-2a2d-4d51-a71d-569b8c039d8a" name="Проект не создан" isLeaf="false" ordering="Unordered" isControlType="false">
+            <elementDefinition Id="c7f08590-4e92-4405-996c-38884f7a8f60" />
+            <upperBound>
+              <literalInteger Id="aabe5444-5467-49be-908e-629e12c81abb" name="2147483647" value="2147483647">
+                <elementDefinition Id="db33d61a-c5de-48d8-a60a-ae6d5d32d804" />
+              </literalInteger>
+            </upperBound>
+          </objectNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="72e2fffc-ebbd-4e1a-a711-c33b1c48952e" name="PMSystem.Modeling">
+    <elementDefinition Id="b1059d0e-3381-4558-9424-331465a8d002" />
+    <profileInstances>
+      <packageHasProfileInstances Id="027e9038-0180-4897-934b-890f56671956">
+        <profileInstance Id="b80dc6db-ba81-4e56-b960-46d15cf76d66" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="52406040-56e8-418f-b4b5-0bee6db0fd52">
+        <profileInstance Id="2c0bfbbe-cbe8-47d1-804a-a6c9624e24b9" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>
